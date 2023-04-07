@@ -1,0 +1,40 @@
+/*? global clearing */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box{
+  background-color: bisque;
+  width: 100%;
+  padding: 10px;
+}
+.box input {
+  padding: 10px;
+  border-radius: 10px;
+  border: solid rgb(89, 255, 89) 3px;
+  font-weight: bolder;
+}
+
+.box button{
+  padding: 10px;
+  border-radius: 10px;
+  border: solid rgb(89, 208, 255) 3px;
+  background-color: rgb(89, 208, 255);
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+
+.box button:hover{
+  padding: 10px;
+  border-radius: 10px;
+  border: solid rgb(219, 245, 255) 3px;
+  background-color: rgb(188, 236, 255);
+  font-weight: bolder;
+  color: black;
+  cursor: pointer;
+}
